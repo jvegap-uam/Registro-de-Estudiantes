@@ -16,7 +16,7 @@ struct {
 	string apellido;
 	int edad;
 	int nota1, nota2, nota3;
-}estudiante;
+}estudiante[100];
 
 int main() {
 	mainMenu();
@@ -57,7 +57,7 @@ void agregarEst() {
 }
 
 void editarEst() {
-
+	ifstream 
 }
 
 void eliminarEst() {
